@@ -27,5 +27,5 @@ jobs:
         git config --local user.email action@github.com
         git add result.json
         git add ordered.json
-        git commit -m "update data"
+        git commit -m "update data" || echo "Up to date"
         git push
