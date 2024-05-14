@@ -65,7 +65,7 @@ async function getPlayListItems(pid, npt=null) {
                 badarray[a.snippet.resourceId.videoId] = {
                     title: a.snippet.title,
                     rating: "not in the description",
-                    album: album.replace("(QUICK)", ''),
+                    album: (album == undefined ? '' : album.replace("(QUICK)", '')),
                     artist: artist,
                     date: date,
                     flatscore: t,

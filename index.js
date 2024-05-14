@@ -32,8 +32,11 @@ function find(album) {
     return neversorted.filter(x => x.album == album) || fullarr.filter(x => x.album == album)
 }
 async function populate() {
-    let data = await fetch("https://raw.githubusercontent.com/kiawildberger/fantanosort/master/result.json")
-    let order_data = await fetch("https://raw.githubusercontent.com/kiawildberger/fantanosort/master/ordered.json")
+    
+	// data = read local file file://C:\\Users\\simone.bisi\\Sources\\fantanosort\\result.json from localhost
+	let data = await fetch("http://localhost:8000/result.json") // result.json
+	let order_data = await fetch("http://localhost:8000/ordered.json")
+
     ordered = await order_data.json()
     others = ordered[0]
     ordered.shift()
