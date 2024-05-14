@@ -19,6 +19,22 @@
        of course there are a bunch of other ones, some of which i dont use but they're still there. check fetch.js for em all
     */
 
+	// xvn1eG99Mfs	artist alt-J - album The Dream
+	set("xvn1eG99Mfs", "artist", "alt-J")
+	set("xvn1eG99Mfs", "album", "The Dream")
+	// ka1Ko6n9FW0	artist alt-J - album Relaxer 
+	set("ka1Ko6n9FW0", "artist", "alt-J")
+	set("ka1Ko6n9FW0", "album", "Relaxer")
+	// P0C3V8Acjcw	artist alt-J - album This Is All Yours
+	set("P0C3V8Acjcw", "artist", "alt-J")
+	set("P0C3V8Acjcw", "album", "This Is All Yours")
+	// _TZBdHjgMxI	artist alt-J - album An Awesome Wave
+	set("_TZBdHjgMxI", "artist", "alt-J")
+	set("_TZBdHjgMxI", "album", "An Awesome Wave")
+
+	// pccO0anCKZY	rating 5/10
+	set("pccO0anCKZY", "rating", "5/10")
+
     set("D86O_TGb45Q", "rating", "what/10")
     set("CJDcbwpsjU0", "rating", "0.94721/10")
     set("8PqLOyHA7BI", "rating", "8/10")
