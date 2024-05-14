@@ -33,9 +33,8 @@ function find(album) {
 }
 async function populate() {
     
-	// data = read local file file://C:\\Users\\simone.bisi\\Sources\\fantanosort\\result.json from localhost
-	let data = await fetch("http://localhost:8000/result.json") // result.json
-	let order_data = await fetch("http://localhost:8000/ordered.json")
+	let data = await fetch("https://raw.githubusercontent.com/SimonItaly/fantanosort/master/result.json")
+	let order_data = await fetch("https://raw.githubusercontent.com/SimonItaly/fantanosort/master/ordered.json")
 
     ordered = await order_data.json()
     others = ordered[0]
